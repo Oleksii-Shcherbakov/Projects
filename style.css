@@ -195,7 +195,7 @@
   margin-top: auto;
   display: none;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1400px) {
   .footer {
     display: block;
   }

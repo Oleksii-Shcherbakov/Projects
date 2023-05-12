@@ -3,7 +3,7 @@
    margin-top: auto; 
    display: none;
 
-  @include for-large-medium {
+  @include for-large-up {
      display: block;
   }
 
