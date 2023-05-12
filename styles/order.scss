@@ -1,9 +1,9 @@
  .order {
     padding: 50px 15px;
     background-color: $color-light;
-    display: hidden;
     
-    @include for-large-up {
+    
+    @include for-large-medium {
        padding: 73px 0 72px 0;
        display: flex;
        justify-content: center;

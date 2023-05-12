@@ -1,9 +1,11 @@
 .footer {
-   display: hidden;
    flex-direction: column;
    margin-top: auto; 
+   display: none;
 
-
+  @include for-large-medium {
+     display: block;
+  }
 
    &__description {
    display: none;
