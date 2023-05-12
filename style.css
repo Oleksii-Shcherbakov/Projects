@@ -249,6 +249,7 @@
 
 .about-company {
   margin-top: 44px;
+  margin-right: 200px;
 }
 
 .downloads {
@@ -291,9 +292,6 @@
   }
 }
 
-.nav-links {
-  width: 265px;
-}
 .nav-links:first-child {
   padding-top: 25px;
 }
