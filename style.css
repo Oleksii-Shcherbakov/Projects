@@ -408,6 +408,7 @@
 .logo-vertical__image {
   width: 60px;
   height: 60px;
+  margin-right: 15px;
 }
 .logo-vertical__name {
   font-weight: 700;
@@ -434,7 +435,7 @@
   }
 }
 @media screen and (min-width: 1400px) {
-  .logo-footer__image-footer {
+  .logo-footer .logo__image-footer {
     display: block;
     width: 60px;
     height: 60px;
@@ -456,13 +457,6 @@
     color: #2b292d;
     opacity: 0.6;
     width: 230px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .logo-footer__text-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 }
 
