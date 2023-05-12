@@ -2,8 +2,9 @@
     padding: 50px 15px;
     background-color: $color-light;
     
-    @include for-large-up {
+    @include for-large-medium {
        padding: 73px 0 72px 0;
+       display: none;
        display: flex;
        justify-content: center;
        align-items: flex-start;

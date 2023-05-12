@@ -3,6 +3,10 @@
    flex-direction: column;
    margin-top: auto; 
 
+   @include for-large-medium {
+      display: none;
+   }
+
    &__description {
    display: none;
    line-height: 26px;
