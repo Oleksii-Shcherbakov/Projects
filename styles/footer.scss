@@ -1,7 +1,6 @@
 .footer {
    flex-direction: column;
    margin-top: auto; 
-   display: none;
 
   @include for-large-up {
      display: block;
@@ -235,5 +234,59 @@
    line-height: 25px;
    text-align: center;
    color: $text-color-light-grey;
+}
+}
+
+.logo-footer {
+   display: none;
+   @include for-large-up {
+   display: flex;
+   width: 60px;
+   height: 60px;
+   }
+
+&__image-footer {
+
+   @include for-large-up {
+      display: block;
+      width: 60px;
+      height: 60px;
+      margin-right: 15px;
+      padding: 0;
+   }
+}
+
+.logo__name-footer {
+
+   @include for-large-up {
+   font-size: 20px;
+   line-height: 25px;
+   font-weight: 700;
+   }
+   
+}
+
+.logo__description-footer {
+
+   @include for-large-up {
+
+   font-size: 18px;
+   line-height: 25px;
+   color: #2b292d;
+   opacity: 0.6;
+   width: 230px;
+   }
+   }
+
+&__text-footer {
+
+   @include for-large-up {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+   }
+   
 }
 }
