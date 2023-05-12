@@ -293,6 +293,11 @@
 .nav-links:first-child {
   padding-top: 25px;
 }
+@media screen and (min-width: 1400px) {
+  .nav-links:first-child {
+    padding-top: 0;
+  }
+}
 .nav-links__title {
   font-weight: bold;
   font-size: 22px;
@@ -612,11 +617,11 @@
     z-index: 1;
   }
 }
-.headline__action {
+.headline__actions {
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .headline__action {
+  .headline__actions {
     margin-top: 58px;
     display: flex;
   }
@@ -719,8 +724,30 @@
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
+@media screen and (min-width: 1400px) {
+  .order {
+    padding: 73px 0 72px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.order__details {
+  max-width: 555px;
+}
+@media screen and (min-width: 1400px) {
+  .order__details {
+    margin-left: 123px;
+  }
+}
 .order__ilustration {
   max-width: 200px;
+}
+@media screen and (min-width: 1400px) {
+  .order__ilustration {
+    max-width: 269px;
+    margin-right: 121px;
+  }
 }
 .order__title {
   font-weight: 700;
@@ -728,12 +755,18 @@
   line-height: 40px;
   letter-spacing: -0.35143px;
   margin-top: 40px;
+  text-align: -webkit-center;
 }
 .order__text {
   font-size: 24px;
   line-height: 34px;
   margin: 0;
   margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .order__form {
+    display: flex;
+  }
 }
 .order__email {
   margin-top: 40px;
@@ -746,12 +779,28 @@
   font-size: 18px;
   line-height: 13px;
 }
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin-top: 20px;
+  }
+}
 .order__email::placeholder {
   color: #2b292d;
 }
 .order__button {
   margin-top: 12px;
-  width: 100%;
+}
+@media screen and (max-width: 1399px) {
+  .order__button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-shrink: 0;
+  }
 }
 .order__terms {
   font-size: 14px;
@@ -776,10 +825,9 @@ html {
   width: 100%;
   overflow: hidden;
 }
-
-@media (min-width: 400px) {
+@media screen and (min-width: 1400px) {
   .page {
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;

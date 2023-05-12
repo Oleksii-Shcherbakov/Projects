@@ -3,11 +3,32 @@
     background-color: $color-light;
     
     @include for-large-up {
-       
+       padding: 73px 0 72px 0;
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+    }
+
+
+    &__details {
+
+      max-width: 555px;
+
+      @include for-large-up {
+        margin-left: 123px;
+      }
+
+
     }
     
     &__ilustration {
       max-width: 200px;
+
+
+      @include for-large-up {
+        max-width: 269px;
+        margin-right: 121px;
+      }
     }
     
 
@@ -17,6 +38,7 @@
       line-height:40px;
       letter-spacing: -0.35143px;
       margin-top: 40px;
+      text-align: -webkit-center;
     }
 
     &__text {
@@ -24,6 +46,14 @@
       line-height: 34px;
       margin: 0;
       margin-top: 18px;
+    }
+
+
+    &__form {
+
+      @include for-large-up {
+        display: flex;
+      }
     }
 
     &__email {
@@ -36,6 +66,10 @@
       text-align: center;
       font-size: 18px;
       line-height: 13px;
+
+      @include for-large-up {
+        margin-top: 20px;
+      }
       
 
       &::placeholder {
@@ -45,7 +79,18 @@
 
     &__button {
       margin-top: 12px;
-      width: 100%;
+      
+
+      @include for-large-down {
+        width: 100%;
+      }
+
+      @include for-large-up {
+        margin-top: 20px;
+        margin-left: 10px;
+        flex-shrink: 0;
+
+      }
     }
 
     &__terms {

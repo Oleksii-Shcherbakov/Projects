@@ -105,6 +105,10 @@
   width: 265px;
   &:first-child {
    padding-top: 25px;
+
+   @include for-large-up {
+      padding-top: 0;
+   }
   }
 
 &__title {
