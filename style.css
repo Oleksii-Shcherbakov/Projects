@@ -868,6 +868,11 @@
   padding: 50px 15px;
   background: rgba(0, 161, 198, 0.0901960784);
 }
+@media screen and (min-width: 1400px) {
+  .audiences__column {
+    margin-bottom: 120px;
+  }
+}
 .audiences__subtitle {
   margin: 0;
   text-align: center;
@@ -885,6 +890,13 @@
   margin-top: 17px;
   margin-bottom: 18px;
 }
+@media screen and (min-width: 1400px) {
+  .audiences__title {
+    width: 330px;
+    margin: auto;
+    margin-top: 24px;
+  }
+}
 .audiences__advantage-items-text {
   display: block;
   font-weight: 400;
@@ -892,6 +904,20 @@
   line-height: 34px;
   text-align: center;
   padding: 10px;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__advantage-items-text {
+    width: 555px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audiences__button-blue {
+    margin: auto;
+    margin-left: 520px;
+  }
 }
 .audiences__button {
   background-color: #fff;
@@ -909,6 +935,7 @@
   .audiences__button {
     margin-top: 0;
     margin-left: 10px;
+    width: 160px;
   }
 }
 .audiences__card {
@@ -921,6 +948,18 @@
   flex-direction: column;
   margin-top: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .audiences__card {
+    margin: auto;
+    margin-bottom: 120px;
+    width: 262px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .audiences__images {
   margin: auto;
 }
@@ -930,6 +969,16 @@
 .audiences__cards :hover {
   background-color: #3141c5;
   color: #fff;
+}
+@media screen and (min-width: 1400px) {
+  .audiences__cards {
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+  .audiences__cards :first-child {
+    margin-top: 0;
+  }
 }
 .audiences__img-title {
   margin: auto;
