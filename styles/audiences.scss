@@ -53,8 +53,10 @@
 
 
    &__button-blue {
+      width: 100%;
 
       @include for-large-up {
+         width: 160px;
          margin: auto;
          margin-left: 520px;
       }

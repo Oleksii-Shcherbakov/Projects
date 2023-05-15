@@ -913,8 +913,12 @@
     margin-bottom: 30px;
   }
 }
+.audiences__button-blue {
+  width: 100%;
+}
 @media screen and (min-width: 1400px) {
   .audiences__button-blue {
+    width: 160px;
     margin: auto;
     margin-left: 520px;
   }
