@@ -112,6 +112,11 @@
   display: flex;
   position: relative;
 }
+@media screen and (min-width: 1400px) {
+  .features {
+    margin-bottom: 110px;
+  }
+}
 @media screen and (max-width: 1399px) {
   .features {
     display: none;
@@ -777,6 +782,7 @@
 @media screen and (min-width: 1400px) {
   .order {
     padding: 73px 0 72px 0;
+    padding-left: 132px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -801,6 +807,7 @@
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 100%;
+    margin-right: 123px;
   }
 }
 .order__title {

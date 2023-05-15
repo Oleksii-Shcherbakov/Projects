@@ -10,6 +10,7 @@
     
     @include for-large-up {
        padding: 73px 0 72px 0;
+       padding-left: 132px;
        display: flex;
        justify-content: center;
        align-items: flex-start;
@@ -38,6 +39,7 @@
 
       @include for-large-up {
         max-width: 100%;
+        margin-right: 123px;
       }
     }
     
