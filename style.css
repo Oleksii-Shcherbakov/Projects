@@ -776,6 +776,7 @@
 }
 @media screen and (min-width: 1400px) {
   .order {
+    padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
