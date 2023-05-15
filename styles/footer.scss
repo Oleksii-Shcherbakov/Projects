@@ -1,6 +1,7 @@
 .footer {
    flex-direction: column;
    margin-top: auto; 
+   display: hidden;
 
   @include for-large-up {
      display: block;
