@@ -112,6 +112,13 @@
 
 &__cards {
 
+   :hover {
+
+      background-color: $color-dark-blue;
+      color: $text-color-white;
+
+      }
+
   @include for-large-up {
          display: flex;
          margin-left: 125px;
@@ -121,6 +128,7 @@
 }
 
    &__images {
+
    margin: auto;
 
      :hover {
