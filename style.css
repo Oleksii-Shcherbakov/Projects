@@ -906,6 +906,8 @@
 @media screen and (min-width: 1400px) {
   .audience__title {
     width: 330px;
+    font-size: 56px;
+    line-height: 56px;
     margin: auto;
     margin-top: 24px;
   }
@@ -923,7 +925,7 @@
   .audience__advantage-items-text {
     width: 555px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 }
