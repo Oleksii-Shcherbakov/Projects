@@ -964,7 +964,7 @@
   padding-top: 22px;
 }
 @media screen and (min-width: 1400px) {
-  .audience {
+  .audience__card {
     margin: auto;
     margin-bottom: 120px;
     width: 262px;
@@ -975,19 +975,19 @@
     align-items: center;
   }
 }
+@media screen and (min-width: 1400px) {
+  .audience__cards {
+    display: flex;
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
 .audience__images {
   margin: auto;
 }
 .audience__images :hover {
   background-color: #3141c5;
   color: #fff;
-}
-@media screen and (min-width: 1400px) {
-  .audience__images {
-    display: flex;
-    margin-left: 125px;
-    margin-right: 125px;
-  }
 }
 .audience__img-title {
   margin: auto;
