@@ -884,7 +884,7 @@
   .audience__column {
     padding: 0;
     padding-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 }
 .audience__subtitle {
@@ -926,7 +926,7 @@
     width: 555px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 .audience__button-blue {
