@@ -1,10 +1,11 @@
  .order {
     padding: 50px 15px;
     background-color: $color-light;
-    display: none;
+    
 
     @include for-large-medium {
       display: block;
+      width: 100%;
     }
     
     @include for-large-up {
@@ -17,22 +18,26 @@
 
     &__details {
 
-      max-width: 555px;
+      max-width: 100%;
 
       @include for-large-up {
-        margin-left: 123px;
+        max-width: 616px;
+        margin-right: 170px;
       }
 
 
     }
     
-    &__ilustration {
-      max-width: 200px;
+    &__illustration {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
 
 
       @include for-large-up {
-        max-width: 269px;
-        margin-right: 121px;
+        max-width: 100%;
       }
     }
     

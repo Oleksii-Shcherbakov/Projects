@@ -62,7 +62,6 @@
 
 .about-company {
    margin-top: 44px;
-   margin-right: 200px;
 }
 
 .downloads {
@@ -91,7 +90,7 @@
 
 @include for-large-up {
       flex-direction: row;
-      margin-left: auto;
+      margin-left: 120px;
       margin-top: 60px;
 }
 
@@ -219,7 +218,11 @@
    &__image {
    width: 60px;
    height: 60px;
-   margin-right: 15px;
+   margin-left: 10px;
+
+   @include for-large-up {
+      margin-right: 15px;
+   }
 }
 
 &__name {
