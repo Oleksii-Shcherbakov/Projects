@@ -5,6 +5,7 @@
 
   @include for-large-up {
      display: block;
+     visibility: visible;
   }
 
    &__description {

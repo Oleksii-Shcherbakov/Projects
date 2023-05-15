@@ -203,6 +203,7 @@
 @media screen and (min-width: 1400px) {
   .footer {
     display: block;
+    visibility: visible;
   }
 }
 .footer__description {
@@ -783,6 +784,7 @@
 }
 @media screen and (min-width: 1400px) {
   .order {
+    visibility: visible;
     padding: 73px 0 72px 0;
     padding-left: 132px;
     display: flex;
