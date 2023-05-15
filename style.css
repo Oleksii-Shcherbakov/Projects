@@ -880,6 +880,8 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__column {
+    padding: 0;
+    padding-top: 108px;
     margin-bottom: 120px;
   }
 }
@@ -982,8 +984,8 @@
 @media screen and (min-width: 1400px) {
   .audience__cards {
     display: flex;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 105px;
+    margin-right: 105px;
   }
 }
 .audience__images {
