@@ -1,6 +1,7 @@
  .order {
     padding: 50px 15px;
     background-color: $color-light;
+    display: none;
     
 
     @include for-large-medium {

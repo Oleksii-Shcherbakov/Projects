@@ -198,6 +198,7 @@
 .footer {
   flex-direction: column;
   margin-top: auto;
+  display: none;
 }
 @media screen and (min-width: 1400px) {
   .footer {
@@ -772,6 +773,7 @@
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
+  display: none;
 }
 @media screen and (max-width: 320px) {
   .order {
