@@ -33,13 +33,14 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     max-width: 100%;
 
 
       @include for-large-up {
         max-width: 100%;
-        margin-right: 123px;
+        margin: 0;
+        margin-right: 103px;
       }
     }
     
