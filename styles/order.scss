@@ -24,12 +24,14 @@
       max-width: 100%;
 
       @include for-large-up {
-        max-width: 616px;
-        margin-right: 170px;
-      }
-
-
+          max-width: 616px;
+          margin-right: 205px;
+          margin-left: 60px;
+       }
     }
+
+
+    
     
     &__illustration {
     margin: auto;
