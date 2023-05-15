@@ -876,7 +876,7 @@
   background: rgba(0, 161, 198, 0.0901960784);
 }
 .audience__column {
-  margin-bottom: 62px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
   .audience__column {
