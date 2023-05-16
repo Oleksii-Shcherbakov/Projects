@@ -198,12 +198,10 @@
 .footer {
   flex-direction: column;
   margin-top: auto;
-  visibility: hidden;
 }
 @media screen and (min-width: 1400px) {
   .footer {
     display: block;
-    visibility: visible;
   }
 }
 .footer__description {
@@ -774,7 +772,6 @@
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
-  visibility: hidden;
 }
 @media screen and (max-width: 320px) {
   .order {
@@ -784,7 +781,6 @@
 }
 @media screen and (min-width: 1400px) {
   .order {
-    visibility: visible;
     padding: 73px 0 72px 0;
     padding-left: 132px;
     display: flex;

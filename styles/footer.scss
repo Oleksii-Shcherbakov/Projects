@@ -1,11 +1,11 @@
 .footer {
    flex-direction: column;
    margin-top: auto; 
-   visibility: hidden;
+   
 
   @include for-large-up {
      display: block;
-     visibility: visible;
+     
   }
 
    &__description {

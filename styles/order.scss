@@ -1,7 +1,6 @@
  .order {
     padding: 50px 15px;
     background-color: $color-light;
-    visibility: hidden;
 
     
 
@@ -11,7 +10,7 @@
     }
     
     @include for-large-up {
-      visibility: visible;
+      
        padding: 73px 0 72px 0;
        padding-left: 132px;
        display: flex;
